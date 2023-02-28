@@ -15,7 +15,7 @@ extension=gd
 
 <br>
 
-Instancias principais para criar o playload do pix
+Instância principais para criar o playload do pix
 ```php
 $obPlayload = (new Playload)
                 ->setPixKey('00000000000')//CHAVE PIX 
