@@ -1,7 +1,7 @@
 # geraQrcode
 
 Primeiro instale as dependências
-```cmd
+```composer
 composer install
 ```
 
