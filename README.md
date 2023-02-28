@@ -7,6 +7,14 @@ composer install
 
 <br>
 
+Você precisará habilitar a extensão GD no seu ambiente PHP<br>
+removendo o ponto-e-vírgula (;) da frente da linha:
+```php.ini
+extension=gd
+´´´
+
+<br>
+
 Instancias principais para criar o playload do pix
 ```php
 $obPlayload = (new Playload)
