@@ -10,9 +10,9 @@ composer install
 Instancias principais para criar o playload do pix
 ```php
 $obPlayload = (new Playload)
-                ->setPixKey('03195925290')
+                ->setPixKey('00000000000')//CHAVE PIX 
                 ->setDescription('Pagamento do pedido 12345')
-                ->setMerchantName('Joao')
+                ->setMerchantName('Joao Lucas')
                 ->setMerchantcITY('Manaus')
                 ->setAmount(100.00)
                 ->setTxid('WDEV1234');
