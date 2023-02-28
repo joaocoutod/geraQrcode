@@ -8,7 +8,7 @@ use Mpdf\QrCode\Output;
 
 //INSTANCIA PRINCIPAL DO PLAYLOAD PIX
 $obPlayload = (new Playload)
-                ->setPixKey('03195925290')
+                ->setPixKey('03195925290')//CHAVE PIX 
                 ->setDescription('Pagamento do pedido 12345')
                 ->setMerchantName('Joao')
                 ->setMerchantcITY('Manaus')
