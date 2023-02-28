@@ -11,7 +11,6 @@ Você precisará habilitar a extensão GD no seu ambiente PHP<br>
 removendo o ponto-e-vírgula (;) da frente da linha:
 ```php
 extension=gd
-
 ```
 
 <br>
@@ -25,4 +24,4 @@ $obPlayload = (new Playload)
                 ->setMerchantcITY('Manaus')
                 ->setAmount(100.00)
                 ->setTxid('WDEV1234');
-´´´
+```
