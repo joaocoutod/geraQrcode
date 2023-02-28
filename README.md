@@ -7,7 +7,7 @@ composer install
 
 <br>
 
-Instancias para criar o playload do pix
+Instancias principais para criar o playload do pix
 ```php
 $obPlayload = (new Playload)
                 ->setPixKey('03195925290')
