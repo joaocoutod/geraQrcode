@@ -1,7 +1,7 @@
 # geraQrcode
 
 Primeiro instale as dependências
-```composer
+```
 composer install
 ```
 
@@ -9,7 +9,7 @@ composer install
 
 Você precisará habilitar a extensão GD no seu ambiente PHP <b>(php.ini)</b><br>
 removendo o ponto-e-vírgula (;) da frente da linha:
-```php
+```
 extension=gd
 ```
 
