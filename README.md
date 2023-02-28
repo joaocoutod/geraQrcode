@@ -1,0 +1,5 @@
+# geraQrcode
+
+```
+composer install
+```
