@@ -9,7 +9,7 @@ composer install
 
 Você precisará habilitar a extensão GD no seu ambiente PHP<br>
 removendo o ponto-e-vírgula (;) da frente da linha:
-```php.ini
+```php
 extension=gd
 ´´´
 
